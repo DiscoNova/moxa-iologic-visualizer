@@ -1,0 +1,18 @@
+{
+  "name": "moxa-iologic-visualizer",
+  "version": "1.0.0",
+  "description": "CLI for visualizing status of Moxa ioLogic relays",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "exec": "src/index.js",
+    "test": "echo \"TODO: Implement tests.\""
+  },
+  "author": "Markku Post-Uttula <markku.uttula@disconova.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "5.2.0",
+    "clear": "0.1.0",
+    "node-fetch": "3.3.1"
+  }
+}
